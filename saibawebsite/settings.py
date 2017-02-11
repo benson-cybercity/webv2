@@ -139,8 +139,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = ( os.path.join(BASE_DIR, "static"), )
-MEDIA_ROOT = '/var/python/hacks/saibawebsite/static'
+STATIC_ROOT = '/var/python/hacks/saibawebsite/static'
+MEDIA_ROOT = '/var/python/hacks/saibawebsite/media'
 MEDIA_URL='static/img/'
 
 DJANGO_WYSIWYG_FLAVOR = "ckeditor"
