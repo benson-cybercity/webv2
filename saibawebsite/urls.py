@@ -28,6 +28,7 @@ urlpatterns = [
     url(r'^team/', views.team, name='home'),
     url(r'^contact/', views.contact, name='home'),
     url(r'^legal/', views.legal, name='home'),
+    url(r'^return-policy/', views.returnpolicy, name='Return Policy'),
     url(r'^blog/', views.blog, name='home'),
     url(r'^avatar/', include('avatar.urls')),
     url(r'^blog/(?P<slug>[\w\-]+)/$', views.blog_category, name="category_detail"),

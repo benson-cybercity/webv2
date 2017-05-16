@@ -139,7 +139,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/var/python/hacks/saibawebsite/static'
+STATIC_ROOT = '/Users/lawrence/Sites/webv2/static'
 MEDIA_ROOT = '/var/python/hacks/saibawebsite/media'
 MEDIA_URL='static/img/'
 

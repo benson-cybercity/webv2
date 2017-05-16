@@ -62,3 +62,6 @@ def blog(request):
 	blogposts=BlogPost.objects.filter(featured=True)
 	blog_categories=BlogCategories.objects.all()
 	return render_to_response("blog.html",{"blog_categories":blog_categories,"blogposts":blogposts,})
+
+def returnpolicy(request):
+	return render_to_response('return-policy.html')
